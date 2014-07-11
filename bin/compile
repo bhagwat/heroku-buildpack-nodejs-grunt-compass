@@ -10,10 +10,10 @@ cache_dir=$2
 env_dir=$3
 
 echo "........... build_dir : "
-echo build_dir
+echo $build_dir
 
 echo "........... Cache dir : "
-echo cache_dir
+echo $cache_dir
 
 bp_dir=$(cd $(dirname $0); cd ..; pwd)
 
